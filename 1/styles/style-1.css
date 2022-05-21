@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+}
+
+.photo {
+    background-image: url("/1/assets/photo1652809906.jpeg");
+    grid-column: 4/10;
+    height: 862px;
+    width: 575px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image {
+    width: 450px;
+}
+
+.container {
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 225, 228);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.intro {
+    width: 378px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+a {
+    color: rgb(114, 114, 117);
+    cursor: pointer;
+}
+
+.user,
+.pass {
+    width: 381px;
+    height: 46px;
+    padding-left: 12px;
+    border: none;
+    box-shadow: 0px 2px gray;
+    border-radius: 2px;
+}
+
+.usertext,
+.passtext {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.user {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.pass {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.row {
+    display: flex;
+    width: 381px;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.par {
+    color: gray;
+}
+
+.btn {
+    width: 381px;
+    height: 46px;
+    background-color: rgb(235, 126, 59);
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(233, 109, 31);
+    border: 2px solid orangered;
+}
+
+.remember {
+    accent-color: rgb(235, 126, 59);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.remembertext {
+    color: rgb(114, 114, 117);
+}
+
+::placeholder {
+    font-size: 16px;
+}
